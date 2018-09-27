@@ -1,0 +1,10 @@
+<div class="h-screen flex bg-white lg:bg-grey-light font-muli">
+  <div class="w-full flex flex-col justify-between">
+    <div class="w-full lg:w-128 p-16 mx-auto bg-white rounded">
+      <PasswordResetFormLoader @token={{model.id}} as |credential|>
+        <PasswordResetForm @credential={{credential}} />
+      </PasswordResetFormLoader>
+    </div>
+    <div class=""></div>
+  </div>
+</div>
